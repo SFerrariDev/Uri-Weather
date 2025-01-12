@@ -1,0 +1,212 @@
+@media (max-width: 1220px) {
+
+    .firstInput{
+        padding: 70px;
+    }
+    
+    .currentWeather-container {
+        grid-template-columns: repeat(1, 1fr);
+        width: 750px;
+    }
+
+    .main {
+        width: 750px;
+    }
+
+    .header {
+        width: 750px;
+    }
+
+    .hourlyForecast-container {
+        width: 750px;
+    }
+
+    .hourlyForecast-weatherItem {
+        gap: 10px;
+    }
+
+    .daysForecast-container {
+        width: 750px;
+    }
+
+    .daysForecast-list {
+        width: 100%;
+        overflow-x: scroll;
+    }
+
+    .daysForecast-item {
+        min-width: 140px;
+    }
+}
+
+@media (max-width: 800px) {
+    *{
+        font-size: 18px;
+    }
+
+    .firstInput{
+        padding: 50px;
+    }
+
+    .firstInput h3{
+        font-size: 30px;
+    }
+
+    .firstInput p{
+        font-size: 20px;
+    }
+
+    .App .title{
+        font-size: 25px;
+    }
+
+    .currentWeather-date{
+        font-size: 15px;
+    }
+
+    .currentWeather-container {
+        width: 450px;
+    }
+
+    .currentWeather{
+        min-width: 450px;
+    }
+    .weatherIcon{
+        width: 150px;
+        height: 150px;
+    }
+
+    .temperature span{
+        font-size: 50px;
+    }
+
+    .detailsList{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+
+    .main {
+        width: 450px;
+    }
+
+    .header {
+        width: 450px;
+    }
+
+    .hourlyForecast-container {
+        width: 450px;
+    }
+
+    .hourlyForecast-item .extraInfo{
+        display: none;
+    }
+
+    .daysForecast-container {
+        width: 450px;
+    }
+
+    .daysForecast-list {
+        width: 100%;
+        overflow-x: scroll;
+    }
+
+    .daysForecast-item {
+        min-width: 86px;
+    }
+    .daysForecast-description{
+        display: none;
+    }
+    .daysForecast-minMax{
+        font-size: 15px;
+    }
+    .daysForecast-item > span{
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 520px) {
+    *{
+        font-size: 14px;
+    }
+
+    .firstInput{
+        padding: 30px;
+    }
+
+    .firstInput h3{
+        font-size: 20px;
+    }
+
+    .firstInput p{
+        font-size: 15px;
+    }
+
+    .main{
+        width: 325px;
+    }
+
+    .App .title{
+        font-size: 15px;
+    }
+
+    .title{
+        font-size: 15px;
+    }
+
+    .header{
+        width: 325px;
+        height: 100px;
+    }
+
+    .logo{
+        width: 75px;
+        height: 75px;
+    }
+
+    .currentWeather{
+        min-width: 325px;
+    }
+
+    .currentWeather-container{
+        width: 325px;
+    }
+
+    .weatherIcon{
+        width: 100px;
+        height: 100px;
+    }
+
+    .temperature span{
+        font-size: 40px;
+    }
+
+    .detailsImgValue img{
+        width: 35px;
+        height: 35px;
+    }
+
+    .hourlyForecast-container{
+        width: 325px;
+    }
+
+    .hourlyForecast-item{
+        gap: 20px;
+    }
+
+    .daysForecast-container{
+        width: 325px;
+    }
+
+    .daysForecast-item{
+        min-width: 56px;
+    }
+
+    .daysForecast-item img{
+        width: 35px;
+        height: 35px;
+    }
+
+    .daysForecast-item span{
+        font-size: 12px;
+    }
+}

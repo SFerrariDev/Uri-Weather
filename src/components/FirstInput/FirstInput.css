@@ -1,0 +1,24 @@
+.firstInput{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    background-color: var(--secondaryColor);
+    padding: 100px;
+    border-radius: 50px;
+    gap: 40px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-top: 20px;
+    box-shadow: rgba(181, 181, 181, 0.16) 0px 1px 4px, rgb(181, 181, 181) 0px 0px 0px 3px;
+}
+
+.firstInput h3{
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+
+.firstInput p{
+    font-size: 30px;
+    letter-spacing: 2px;
+}

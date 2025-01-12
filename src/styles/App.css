@@ -1,0 +1,43 @@
+:root {
+    --primaryColor: #0F0F0F;
+    --secondaryColor: #1E1E1E;
+    --terciaryColor: #363636;
+    --whiteColor: #FFFFFF;
+    --silverColor: #e3e4e5;
+    --redColor: #742BEC;
+    --blueColor: #2296F5;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-size: 20px;
+    font-weight: normal;
+    color: var(--whiteColor);
+}
+
+.App .title{
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+
+.wrapContainer {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    width: 100%;
+    min-height: 100%;
+    align-items: center;
+}
+
+.hr {
+    width: 100%;
+    height: auto;
+    border-top: 1px solid #ccc;
+    border-radius: 50%;
+    border: 'none';
+    margin: 10px 0;
+}
+
