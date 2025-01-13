@@ -1,4 +1,4 @@
-import './Loading.css';
+import './Loading.css'; //cambiado el Loading
 
 export const Loading = () => {
     return (
