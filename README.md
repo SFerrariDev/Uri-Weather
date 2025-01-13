@@ -1,8 +1,27 @@
-# React + Vite
+# Uri Weather
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Uri weather es una aplicación web para consultar el clima en tiempo real de cualquier ciudad del mundo.
+El proyecto se inició con Vite y utiliza HTML, CSS y React.
 
-Currently, two official plugins are available:
+# Características
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Búsqueda de clima en tiempo real de cualquier ciudad del mundo.
+- Información del clima actual, de la próximas 5 horas y de los siguientes 5 días.
+- Interfaz de usuario responsiva.
+- Diseño minimalista y monocromatico.
+- Integración del clima con la Api Tomorrow.io.
+
+# Tecnologías utilizadas
+
+- Vite (https://vite.dev/).
+- React (https://react.dev/).
+- CSS. Iconos de SVGRepo (https://www.svgrepo.com/)
+- HTML.
+- JavaScript (ES6+).
+- Api: Tomorrow.io (https://app.tomorrow.io).
+
+# Contacto
+
+Autor: Santiago Ferrari
+Email: santiferraridev@gmail.com
+GitHub: https://github.com/SFerrariDev

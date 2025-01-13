@@ -1,6 +1,6 @@
 import './WeatherIcon.css'
 
-export function WeatherIcon({ weatherCode}) {
+export function WeatherIcon({ weatherCode }) {
     return (
         <img
             src={`/assets/images/${weatherCode}.svg`}

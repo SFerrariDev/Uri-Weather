@@ -1,8 +1,8 @@
-import { getWeather, getForecast } from '../services/fetchWeather'
 import { useSearchContext } from '../context/SearchContext';
 import { useWeatherContext } from '../context/WeatherContext';
 import { useForecastContext } from '../context/ForecastContext';
 import { useErrorContext } from '../context/ErrorContext';
+import { getWeather, getForecast } from '../services/fetchWeather'
 
 export function useHeaderLogic() {
 

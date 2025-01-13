@@ -26,10 +26,10 @@
 .form .searchIcon {
     position: absolute;
     display: flex;
-    width: 25px;
+    width: 35px;
     height: auto;
-    top: 12px;
-    left: 10px;
+    top: 7px;
+    left: 7px;
 }
 
 .formInput {
@@ -56,9 +56,4 @@
 
 .formInput:focus {
     outline: none;
-}
-
-.user img {
-    width: 45px;
-    height: auto;
 }
