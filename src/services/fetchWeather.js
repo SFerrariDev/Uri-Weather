@@ -33,7 +33,7 @@ async function fetchWeatherData(endpoint, search, setLoading, handleError) {
     } catch (error) {
         handleError({
             name: error.name,
-            message: 'Lo sentimos pero ocurrio un error inesperado. Por favor intentalo mas tarde.'
+            message: 'Lo sentimos, pero ocurrio un error inesperado. Por favor intentalo mas tarde.'
         });
         throw error;
     } finally {

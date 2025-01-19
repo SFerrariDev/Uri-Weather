@@ -13,12 +13,14 @@
     box-shadow: rgba(181, 181, 181, 0.16) 0px 1px 4px, rgb(181, 181, 181) 0px 0px 0px 3px;
 }
 
-.firstInput h3{
+.firstInput h3,
+.firstInput h3 font{
     font-size: 50px;
     letter-spacing: 2px;
 }
 
-.firstInput p{
+.firstInput p,
+.firstInput p font{
     font-size: 30px;
     letter-spacing: 2px;
 }

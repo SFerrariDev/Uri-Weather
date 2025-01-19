@@ -3,7 +3,7 @@
     justify-content: center;
     width: 100%;
     text-align: center;
-    padding: 1.5rem 0;
+    padding: 1.5rem 5px;
 }
 
 .footer p{
@@ -12,6 +12,10 @@
 
 .footer a{
     color: var(--colorWhite);
-    text-decoration: none;
+    text-decoration: underline;
     margin: 0 10px;
+}
+
+.footer a:hover{
+    color: var(--blueColor)
 }

@@ -22,7 +22,15 @@
     }
 
     .hourlyForecast-weatherItem {
-        gap: 10px;
+        gap: 20px;
+    }
+
+    .hourlyForecast-description font{
+        margin-left: 20px;
+    }
+
+    .hourlyForecast-item .extraInfo:last-child{
+        display: none;
     }
 
     .daysForecast-container {
@@ -48,20 +56,24 @@
         padding: 50px;
     }
 
-    .firstInput h3{
+    .firstInput h3,
+    .firstInput h3 font{
         font-size: 30px;
     }
 
-    .firstInput p{
+    .firstInput p,
+    .firstInput p font{
         font-size: 20px;
     }
 
-    .App .title{
-        font-size: 25px;
+    .App .title,
+    .App .title font{
+        font-size: 20px !important;
     }
 
-    .currentWeather-date{
-        font-size: 15px;
+    .currentWeather-date,
+    .currentWeather-date font{
+        font-size: 20px;
     }
 
     .currentWeather-container {
@@ -70,13 +82,15 @@
 
     .currentWeather{
         min-width: 450px;
+        border-radius: 25px;
     }
     .weatherIcon{
         width: 150px;
         height: 150px;
     }
 
-    .temperature span{
+    .temperature span,
+    .temperature span font{
         font-size: 50px;
     }
 
@@ -95,14 +109,20 @@
 
     .hourlyForecast-container {
         width: 450px;
+        border-radius: 25px;
     }
 
     .hourlyForecast-item .extraInfo{
         display: none;
     }
 
+    .hourlyForecast-weatherItem{
+        gap: 25px;
+    }
+
     .daysForecast-container {
         width: 450px;
+        border-radius: 25px;
     }
 
     .daysForecast-list {
@@ -116,10 +136,12 @@
     .daysForecast-description{
         display: none;
     }
-    .daysForecast-minMax{
+    .daysForecast-minMax,
+    .daysForecast-minMax font{
         font-size: 15px;
     }
-    .daysForecast-item > span{
+    .daysForecast-item > span,
+    .daysForecast-item > span font{
         font-size: 15px;
     }
 }
@@ -133,11 +155,18 @@
         padding: 30px;
     }
 
-    .firstInput h3{
+    .formInput,
+    .formInput font{
+        font-size: 14px;
+    }
+
+    .firstInput h3,
+    .firstInput h3 font{
         font-size: 20px;
     }
 
-    .firstInput p{
+    .firstInput p,
+    .firstInput p font{
         font-size: 15px;
     }
 
@@ -145,12 +174,8 @@
         width: 325px;
     }
 
-    .App .title{
-        font-size: 15px;
-    }
-
     .title{
-        font-size: 15px;
+        font-size: 20px;
     }
 
     .header{
@@ -176,7 +201,8 @@
         height: 100px;
     }
 
-    .temperature span{
+    .temperature span,
+    .temperature span font{
         font-size: 40px;
     }
 
@@ -190,11 +216,25 @@
     }
 
     .hourlyForecast-item{
-        gap: 20px;
+        gap: 7px;
+    }
+
+    .hourlyForecast-weatherItem .weatherIcon{
+        display: none;
+    }
+
+    .hourlyForecast-weatherItem{
+        gap: 30px;
+    }
+
+    .hourlyForecast-description font{
+        margin-left: 0px;
     }
 
     .daysForecast-container{
         width: 325px;
+        gap: 10px;
+        padding: 10px;
     }
 
     .daysForecast-item{
@@ -206,7 +246,8 @@
         height: 35px;
     }
 
-    .daysForecast-item span{
+    .daysForecast-item span,
+    .daysForecast-item span font{
         font-size: 12px;
     }
 }
