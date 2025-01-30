@@ -1,8 +1,8 @@
-import { useState } from 'react';
+import { useState } from 'react'
 
 export function useForecast() {
-    const [daysForecast, setDaysForecast] = useState(false);
-    const [hourlyForecast, setHourlyForecast] = useState(false);
+	const [daysForecast, setDaysForecast] = useState(false)
+	const [hourlyForecast, setHourlyForecast] = useState(false)
 
-    return { daysForecast, setDaysForecast, hourlyForecast, setHourlyForecast };
+	return { daysForecast, setDaysForecast, hourlyForecast, setHourlyForecast }
 }

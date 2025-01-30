@@ -1,59 +1,61 @@
 .header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    width: 1135px;
-    height: 120px;
-    gap: 10px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	width: 1135px;
+	height: 120px;
+	gap: 10px;
 }
 
-.logo{
-    width: 100px;
-    height: 100px;
-    mix-blend-mode: color-dodge;
+.logo {
+	width: 100px;
+	height: 100px;
+	mix-blend-mode: color-dodge;
 }
 
 .form {
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 350px;
-    height: 50px;
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 350px;
+	height: 50px;
 }
 
 .form .searchIcon {
-    position: absolute;
-    display: flex;
-    width: 35px;
-    height: auto;
-    top: 7px;
-    left: 7px;
+	position: absolute;
+	display: flex;
+	width: 35px;
+	height: auto;
+	top: 7px;
+	left: 7px;
 }
 
 .formInput {
-    width: 100%;
-    height: auto;
-    padding: 10px;
-    border: none;
-    border-radius: 50px;
-    padding-left: 45px;
-    box-shadow: rgba(181, 181, 181, 0.4) 0px 0px 0px 2px, rgba(181, 181, 181, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
-    letter-spacing: 2px;
+	width: 100%;
+	height: auto;
+	padding: 10px;
+	border: none;
+	border-radius: 50px;
+	padding-left: 45px;
+	box-shadow: rgba(181, 181, 181, 0.4) 0px 0px 0px 2px,
+		rgba(181, 181, 181, 0.65) 0px 4px 6px -1px,
+		rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+	letter-spacing: 2px;
 }
 
 .inputError {
-    position: absolute;
-    font-weight: bold;
-    top: 55px;
-    left: 45px;
-    width: fit-content;
-    color: var(--redColor);
-    display: flex;
-    height: auto;
+	position: absolute;
+	font-weight: bold;
+	top: 55px;
+	left: 45px;
+	width: fit-content;
+	color: var(--redColor);
+	display: flex;
+	height: auto;
 }
 
 .formInput:focus {
-    outline: none;
+	outline: none;
 }

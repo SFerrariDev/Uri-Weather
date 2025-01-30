@@ -1,7 +1,7 @@
-import { useState } from "react";
+import { useState } from 'react'
 
 export function useWeather() {
-    const [weather, setWeather] = useState(null);
+	const [weather, setWeather] = useState(null)
 
-    return { weather, setWeather };
+	return { weather, setWeather }
 }

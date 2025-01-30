@@ -1,253 +1,252 @@
 @media (max-width: 1220px) {
+	.firstInput {
+		padding: 70px;
+	}
 
-    .firstInput{
-        padding: 70px;
-    }
-    
-    .currentWeather-container {
-        grid-template-columns: repeat(1, 1fr);
-        width: 750px;
-    }
+	.currentWeather-container {
+		grid-template-columns: repeat(1, 1fr);
+		width: 750px;
+	}
 
-    .main {
-        width: 750px;
-    }
+	.main {
+		width: 750px;
+	}
 
-    .header {
-        width: 750px;
-    }
+	.header {
+		width: 750px;
+	}
 
-    .hourlyForecast-container {
-        width: 750px;
-    }
+	.hourlyForecast-container {
+		width: 750px;
+	}
 
-    .hourlyForecast-weatherItem {
-        gap: 20px;
-    }
+	.hourlyForecast-weatherItem {
+		gap: 20px;
+	}
 
-    .hourlyForecast-description font{
-        margin-left: 20px;
-    }
+	.hourlyForecast-description font {
+		margin-left: 20px;
+	}
 
-    .hourlyForecast-item .extraInfo:last-child{
-        display: none;
-    }
+	.hourlyForecast-item .extraInfo:last-child {
+		display: none;
+	}
 
-    .daysForecast-container {
-        width: 750px;
-    }
+	.daysForecast-container {
+		width: 750px;
+	}
 
-    .daysForecast-list {
-        width: 100%;
-        overflow-x: scroll;
-    }
+	.daysForecast-list {
+		width: 100%;
+		overflow-x: scroll;
+	}
 
-    .daysForecast-item {
-        min-width: 140px;
-    }
+	.daysForecast-item {
+		min-width: 140px;
+	}
 }
 
 @media (max-width: 800px) {
-    *{
-        font-size: 18px;
-    }
+	* {
+		font-size: 18px;
+	}
 
-    .firstInput{
-        padding: 50px;
-    }
+	.firstInput {
+		padding: 50px;
+	}
 
-    .firstInput h3,
-    .firstInput h3 font{
-        font-size: 30px;
-    }
+	.firstInput h3,
+	.firstInput h3 font {
+		font-size: 30px;
+	}
 
-    .firstInput p,
-    .firstInput p font{
-        font-size: 20px;
-    }
+	.firstInput p,
+	.firstInput p font {
+		font-size: 20px;
+	}
 
-    .App .title,
-    .App .title font{
-        font-size: 20px !important;
-    }
+	.App .title,
+	.App .title font {
+		font-size: 20px !important;
+	}
 
-    .currentWeather-date,
-    .currentWeather-date font{
-        font-size: 20px;
-    }
+	.currentWeather-date,
+	.currentWeather-date font {
+		font-size: 20px;
+	}
 
-    .currentWeather-container {
-        width: 450px;
-    }
+	.currentWeather-container {
+		width: 450px;
+	}
 
-    .currentWeather{
-        min-width: 450px;
-        border-radius: 25px;
-    }
-    .weatherIcon{
-        width: 150px;
-        height: 150px;
-    }
+	.currentWeather {
+		min-width: 450px;
+		border-radius: 25px;
+	}
+	.weatherIcon {
+		width: 150px;
+		height: 150px;
+	}
 
-    .temperature span,
-    .temperature span font{
-        font-size: 50px;
-    }
+	.temperature span,
+	.temperature span font {
+		font-size: 50px;
+	}
 
-    .detailsList{
-        grid-template-columns: repeat(2, 1fr);
-        gap: 15px;
-    }
+	.detailsList {
+		grid-template-columns: repeat(2, 1fr);
+		gap: 15px;
+	}
 
-    .main {
-        width: 450px;
-    }
+	.main {
+		width: 450px;
+	}
 
-    .header {
-        width: 450px;
-    }
+	.header {
+		width: 450px;
+	}
 
-    .hourlyForecast-container {
-        width: 450px;
-        border-radius: 25px;
-    }
+	.hourlyForecast-container {
+		width: 450px;
+		border-radius: 25px;
+	}
 
-    .hourlyForecast-item .extraInfo{
-        display: none;
-    }
+	.hourlyForecast-item .extraInfo {
+		display: none;
+	}
 
-    .hourlyForecast-weatherItem{
-        gap: 25px;
-    }
+	.hourlyForecast-weatherItem {
+		gap: 25px;
+	}
 
-    .daysForecast-container {
-        width: 450px;
-        border-radius: 25px;
-    }
+	.daysForecast-container {
+		width: 450px;
+		border-radius: 25px;
+	}
 
-    .daysForecast-list {
-        width: 100%;
-        overflow-x: scroll;
-    }
+	.daysForecast-list {
+		width: 100%;
+		overflow-x: scroll;
+	}
 
-    .daysForecast-item {
-        min-width: 86px;
-    }
-    .daysForecast-description{
-        display: none;
-    }
-    .daysForecast-minMax,
-    .daysForecast-minMax font{
-        font-size: 15px;
-    }
-    .daysForecast-item > span,
-    .daysForecast-item > span font{
-        font-size: 15px;
-    }
+	.daysForecast-item {
+		min-width: 86px;
+	}
+	.daysForecast-description {
+		display: none;
+	}
+	.daysForecast-minMax,
+	.daysForecast-minMax font {
+		font-size: 15px;
+	}
+	.daysForecast-item > span,
+	.daysForecast-item > span font {
+		font-size: 15px;
+	}
 }
 
 @media (max-width: 520px) {
-    *{
-        font-size: 14px;
-    }
+	* {
+		font-size: 14px;
+	}
 
-    .firstInput{
-        padding: 30px;
-    }
+	.firstInput {
+		padding: 30px;
+	}
 
-    .formInput,
-    .formInput font{
-        font-size: 14px;
-    }
+	.formInput,
+	.formInput font {
+		font-size: 14px;
+	}
 
-    .firstInput h3,
-    .firstInput h3 font{
-        font-size: 20px;
-    }
+	.firstInput h3,
+	.firstInput h3 font {
+		font-size: 20px;
+	}
 
-    .firstInput p,
-    .firstInput p font{
-        font-size: 15px;
-    }
+	.firstInput p,
+	.firstInput p font {
+		font-size: 15px;
+	}
 
-    .main{
-        width: 325px;
-    }
+	.main {
+		width: 325px;
+	}
 
-    .title{
-        font-size: 20px;
-    }
+	.title {
+		font-size: 20px;
+	}
 
-    .header{
-        width: 325px;
-        height: 100px;
-    }
+	.header {
+		width: 325px;
+		height: 100px;
+	}
 
-    .logo{
-        width: 75px;
-        height: 75px;
-    }
+	.logo {
+		width: 75px;
+		height: 75px;
+	}
 
-    .currentWeather{
-        min-width: 325px;
-    }
+	.currentWeather {
+		min-width: 325px;
+	}
 
-    .currentWeather-container{
-        width: 325px;
-    }
+	.currentWeather-container {
+		width: 325px;
+	}
 
-    .weatherIcon{
-        width: 100px;
-        height: 100px;
-    }
+	.weatherIcon {
+		width: 100px;
+		height: 100px;
+	}
 
-    .temperature span,
-    .temperature span font{
-        font-size: 40px;
-    }
+	.temperature span,
+	.temperature span font {
+		font-size: 40px;
+	}
 
-    .detailsImgValue img{
-        width: 35px;
-        height: 35px;
-    }
+	.detailsImgValue img {
+		width: 35px;
+		height: 35px;
+	}
 
-    .hourlyForecast-container{
-        width: 325px;
-    }
+	.hourlyForecast-container {
+		width: 325px;
+	}
 
-    .hourlyForecast-item{
-        gap: 7px;
-    }
+	.hourlyForecast-item {
+		gap: 7px;
+	}
 
-    .hourlyForecast-weatherItem .weatherIcon{
-        display: none;
-    }
+	.hourlyForecast-weatherItem .weatherIcon {
+		display: none;
+	}
 
-    .hourlyForecast-weatherItem{
-        gap: 30px;
-    }
+	.hourlyForecast-weatherItem {
+		gap: 30px;
+	}
 
-    .hourlyForecast-description font{
-        margin-left: 0px;
-    }
+	.hourlyForecast-description font {
+		margin-left: 0px;
+	}
 
-    .daysForecast-container{
-        width: 325px;
-        gap: 10px;
-        padding: 10px;
-    }
+	.daysForecast-container {
+		width: 325px;
+		gap: 10px;
+		padding: 10px;
+	}
 
-    .daysForecast-item{
-        min-width: 56px;
-    }
+	.daysForecast-item {
+		min-width: 56px;
+	}
 
-    .daysForecast-item img{
-        width: 35px;
-        height: 35px;
-    }
+	.daysForecast-item img {
+		width: 35px;
+		height: 35px;
+	}
 
-    .daysForecast-item span,
-    .daysForecast-item span font{
-        font-size: 12px;
-    }
+	.daysForecast-item span,
+	.daysForecast-item span font {
+		font-size: 12px;
+	}
 }

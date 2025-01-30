@@ -6,16 +6,15 @@ import './styles/Responsive.css'
 import './styles/App.css'
 
 export function App() {
-
-  return (
-    <div className='App'>
-      <div className='wrapContainer'>
-        <GlobalProvider>
-          <Header />
-          <Main />
-        </GlobalProvider>
-      </div>
-      <Footer />
-    </div >
-  )
+	return (
+		<div className="App">
+			<div className="wrapContainer">
+				<GlobalProvider>
+					<Header />
+					<Main />
+				</GlobalProvider>
+			</div>
+			<Footer />
+		</div>
+	)
 }
